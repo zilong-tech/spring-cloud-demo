@@ -1,0 +1,18 @@
+server:
+  port: 8769
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: @pom.artifactId@
+
+zuul:
+  routes:
+    api-a-route:
+      path: /api-a/**
+      serviceId: eureka-client
+
