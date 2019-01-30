@@ -2,8 +2,15 @@ server:
   port: 8761
 
 eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 10000
+
   instance:
     hostname: localhost
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+
   client:
     registerWithEureka: false
     fetchRegistry: false
@@ -12,4 +19,4 @@ eureka:
 
 spring:
   application:
-    name: eurka-server
+    name: @pom.artifactId@

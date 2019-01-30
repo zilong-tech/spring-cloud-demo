@@ -11,7 +11,7 @@
     <packaging>war</packaging>
     <name>eureka server</name>
     <description>注册中心</description>
-    <artifactId>eureka server</artifactId>
+    <artifactId>eureka-server</artifactId>
 
     <dependencies>
         <dependency>
