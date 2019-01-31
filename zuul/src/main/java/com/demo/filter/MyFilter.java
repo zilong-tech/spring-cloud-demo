@@ -51,7 +51,7 @@ public class MyFilter extends ZuulFilter {
             try {
                 HttpServletResponse response = context.getResponse();
                // response.setCharacterEncoding("UTF-8");
-                response.getWriter().write("用户未登录");
+                response.getWriter().write("token is empty");
             } catch (IOException e) {
                 e.printStackTrace();
             }
