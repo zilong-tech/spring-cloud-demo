@@ -9,7 +9,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
-    <name>eureka server</name>
+    <name>eureka-server</name>
     <description>注册中心</description>
     <artifactId>eureka-server</artifactId>
 
