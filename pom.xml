@@ -15,7 +15,6 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>serice-feign</module>
-        <module>spring-cloud-bus</module>
         <module>cloud-bus</module>
     </modules>
 
