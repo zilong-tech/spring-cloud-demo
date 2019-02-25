@@ -16,6 +16,7 @@
         <module>config-client</module>
         <module>serice-feign</module>
         <module>cloud-bus</module>
+        <module>gateway</module>
     </modules>
 
     <parent>
