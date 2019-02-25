@@ -9,12 +9,6 @@ spring:
           uri: https://github.com/zysspace/SpringcloudConfig
           search-paths: respo
       label: master
-#  rabbitmq:
-#    host: 127.0.0.11
-#    port: 5672
-#    username: guest
-#    password: guest
-
 
 server:
   port: 8085
